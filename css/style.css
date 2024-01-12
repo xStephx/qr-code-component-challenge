@@ -7,15 +7,22 @@
 }
 
 body{
-    font-family: 'Outfit';
+    font-family: var(--font-family);
     background: var(--light-gray);
 }
 
 :root{
+    /* Colors */
     --white:hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
+
+    /* Fonts */
+    --font-family: "Outfit", sans-serif;
+    --font-wght-400: 400;
+    --font-wght-700: 700;
+    --Font-size-paragraph: 15px;
 }
     
 p{
@@ -24,8 +31,8 @@ p{
 
 .container{
     background: var(--white);
-    width: 25%;
-    margin: 5% auto 0 auto;
+    max-width: 340px;
+    margin: 150px auto 0 auto;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
@@ -33,30 +40,31 @@ p{
 }
 
 .item {
-    width: 100%;
+    max-width: 350px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.item img{
-    width: 100%;
+.img img{
+    width: 300px;
     border-radius: 15px;
 }
 
-.a{
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 35px;
+.heading h1{
+    margin-top: 25px;
+    font-weight: var(--font-wght-700);
+    font-size: 25px;
     color: var(--dark-blue);
     margin-bottom: 10px;
 }
 
-.b{
-    font-size: 25px;
-    font-weight: 400;
+.paraghaph p{
+    font-size: var(--Font-size-paragraph);
+    font-weight: var(--font-wght-400);
     color: var(--grayish-blue);
     margin-bottom: 20px;
+    padding: 5px 25px;
 }
 
 
@@ -65,23 +73,19 @@ p{
 
 @media(max-width: 375px){
     .container{
-        width: 80%;
         margin: 20% auto 0 auto;
         padding: 20px;
     }
 
-    .a{
-        margin-top: 10px;
+    .heading h1{
+        margin-top: 15px;
         font-weight: 700;
         font-size: 22px;
         margin-bottom: 10px;
     }
     
-    .b{
-        font-size: 15px;
+    .paraghaph p{
         font-weight: 400;
         margin-bottom: 20px;
-    }
-    
-    
+    }  
 }
