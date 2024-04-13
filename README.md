@@ -9,6 +9,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./images/screenshot.PNG)
 
+You can check it out live [here](https://xstephx.github.io/qr-code-component-challenge/).
+
 ## My process
 
 ### Built with
