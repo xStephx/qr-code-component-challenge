@@ -9,7 +9,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./images/screenshot.PNG)
 
-You can check it out live [here](https://xstephx.github.io/qr-code-component-challenge/).
+### Links
+
+- Solution URL: [here](https://www.frontendmentor.io/solutions/solution-qr-code-component-FQ45Oiq7C3)
+- Live Site URL: [here](https://xstephx.github.io/qr-code-component-challenge/)
 
 ## My process
 
